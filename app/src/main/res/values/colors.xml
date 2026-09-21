@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0058B8</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="page_background">#FFFFFF</color>
+    <color name="text_primary">#111318</color>
+    <color name="text_secondary">#55595F</color>
+    <color name="blue_fill">#0058B8</color>
+    <color name="yellow_fill">#FFDA00</color>
+    <color name="orange_fill">#FF7A00</color>
+    <color name="blue_border">#0058B8</color>
+    <color name="yellow_border">#FFDA00</color>
+    <color name="orange_border">#FF7A00</color>
+    <color name="blue_content">#FFFFFF</color>
+    <color name="yellow_content">#102A43</color>
+    <color name="orange_content">#202020</color>
+    <color name="action_ripple">#22000000</color>
+    <color name="notice_fill">#F0F1F3</color>
+    <color name="notice_border">#D9DCE1</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RecallArchive" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSurface">@color/page_background</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:colorBackground">@color/page_background</item>
+        <item name="android:windowBackground">@color/page_background</item>
+        <!-- Before Android 15, do not inherit an accent-colored status bar. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/page_background</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

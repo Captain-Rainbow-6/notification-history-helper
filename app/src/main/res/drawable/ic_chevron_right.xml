@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Google Material Icons, Apache-2.0. Converted from SVG to Android vector.
+Source: https://raw.githubusercontent.com/google/material-design-icons/master/src/navigation/chevron_right/materialiconsoutlined/24px.svg
+See assets/material_icons_license.txt. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="#FF000000" android:pathData="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" />
+</vector>
