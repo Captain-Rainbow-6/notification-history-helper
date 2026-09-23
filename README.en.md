@@ -2,9 +2,9 @@
 
 [简体中文](README.zh.md) | [English](README.en.md)
 
-Not everyone needs this app. If your phone already has “Notification history” in Settings, just use the built-in feature. Not every customized Android system pulls HyperOS's clever little trick of hiding a feature Android already provides. (Fuck you, Xiaomi!)
+Not everyone needs this app. If your phone already has “Notification history” in Settings, just use the built-in feature. The HyperOS version I use on my Redmi K80 has a clever little trick: the notification history page is still there, but I couldn't find its entry in Settings.
 
-This project started with my experience using a Redmi K80 running HyperOS. I originally wanted to make an app for viewing recalled WeChat and QQ messages. Along the way, I learned that Android already had a notification history feature, but I couldn't find it on my Redmi. It turned out those idiots at Xiaomi had hidden it. So I made this little tool to open that hidden entry point, plus a home screen shortcut to get there in one tap.
+This project started with my experience using a Redmi K80 running HyperOS. I originally wanted to make an app for viewing recalled WeChat and QQ messages. Along the way, I learned that Android already had a notification history feature, but I couldn't find it on my Redmi. I later found that the system page could still be opened. So I made this little tool to open that hidden entry point, plus a home screen shortcut to get there in one tap.
 
 Now I understand why Xiaomi has so many “enthusiasts”: even the entrance to a built-in feature is something users have to build themselves.
 
