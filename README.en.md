@@ -27,7 +27,15 @@ These use cases require the message to have generated a system notification and 
 
 ## Download and installation
 
-The current version is **0.1.4**. Release preparation is still in progress; no official release APK has been published yet. Users do not need to compile the app or install Android Studio to use a released APK.
+The current version is **[v0.1.4 (pre-release)](https://github.com/Captain-Rainbow-6/notification-history-helper/releases/tag/v0.1.4)**. In Assets, download `notification-history-helper-0.1.4.apk`. Users do not need to compile the app or install Android Studio. While the repository is private, downloads require repository access.
+
+`SHA256SUMS.txt` contains the APK checksum. The optional `verification-materials.zip` attachment provides build materials and checking instructions; it is not needed for installation. The automatically generated Source code archives are for developers, not Android installers.
+
+## Screenshots
+
+<img src="docs/images/home-en-light.png" alt="English home screen, light mode" width="260"> <img src="docs/images/home-en-dark.png" alt="English home screen, dark mode" width="260">
+
+Actual signed v0.1.4 on an AOSP Android 11 emulator, showing an already registered shortcut. The emulator cannot query Xiaomi's shortcut permission, so it shows “Cannot check automatically”; this does not by itself indicate a failure. Other devices may show different permission states or system pages. No notification content is shown.
 
 ## How to use
 
@@ -54,7 +62,9 @@ The system's history recording switch and the manufacturer's shortcut permission
 
 ## Compatibility
 
-The main flows have previously been tested on an AOSP Android 11 emulator and a Redmi K80 / HyperOS device. This does not guarantee compatibility with every manufacturer or home screen. Automated UI tests have previously had intermittent failures that passed on reruns; the root cause has not been fully confirmed. Release acceptance checks still need to be completed before publication.
+The signed v0.1.4 APK has undergone basic checks on an AOSP Android 11 emulator and a Redmi K80 running Android 16 / HyperOS OS3.0.307.0.WOKCNXM. On the physical device, checks covered startup, opening system history and shortcut settings, and displaying, dismissing, and resetting the help notice. The maintainer also manually confirmed shortcut creation, the success notification, and opening history from the shortcut. These checks do not guarantee compatibility with every manufacturer or home screen.
+
+Earlier automated UI tests failed intermittently and passed on reruns; the root cause remains unconfirmed. The later basic and manual checks do not establish that this testing issue is resolved.
 
 ## Building from source (developers)
 
@@ -62,7 +72,7 @@ If you want to compile the app or work on the project, see the [build and test g
 
 ## Distribution and licensing
 
-This project is published by **Captain Rainbow** as an individual. It is still in release preparation; no official signed release APK has been published yet.
+This project is published by **Captain Rainbow** as an individual. Official signed pre-release APKs are provided through the project's Releases page.
 
 The project uses a custom [source-available license](LICENSE) that **restricts commercial use and is not an OSI-approved open-source license**. The points below are a summary, not a replacement for the license and branding statement, which are currently in Chinese:
 

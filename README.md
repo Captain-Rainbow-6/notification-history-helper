@@ -9,7 +9,15 @@ Open Android's system notification history and add a home screen shortcut for di
 - [简体中文 — 项目介绍与使用说明](README.zh.md)
 - [English — Introduction and user guide](README.en.md)
 
-当前版本：**0.1.4**，发布准备中。 / Current version: **0.1.4**, release in preparation.
+当前版本 / Current version: **[v0.1.4 — 预发布 / Pre-release](https://github.com/Captain-Rainbow-6/notification-history-helper/releases/tag/v0.1.4)**。
+
+## 界面预览 / Screenshots
+
+<img src="docs/images/home-en-light.png" alt="English home screen, light mode" width="260"> <img src="docs/images/home-zh-dark.png" alt="简体中文首页，黑夜模式" width="260">
+
+正式签名 v0.1.4 在 Android 11 模拟器上的实际界面；其他系统的权限状态和页面可能不同。更多截图见上方中英文说明。
+
+Actual signed v0.1.4 on an Android 11 emulator; permission status and system pages vary by device. More screenshots are in the language-specific guides above.
 
 作者 / Author: **Captain Rainbow**.
 

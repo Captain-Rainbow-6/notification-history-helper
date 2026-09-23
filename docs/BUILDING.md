@@ -47,6 +47,8 @@ Debug App 安装包位于 `app/build/outputs/apk/debug/app-debug.apk`，仅用�
 
 ## 自动检查与本地文件
 
-仓库的 GitHub Actions 工作流配置用于运行构建、单元测试、Lint 和 APK 权限检查，不自动上传安装包。工作流见 [android.yml](../.github/workflows/android.yml)。
+自动检查工作流 [android.yml](../.github/workflows/android.yml) 在推送或拉取请求时运行构建、单元测试、Lint 和 APK 权限检查，不上传安装包。
+
+另有手动运行的 [Build Release APK](../.github/workflows/release-build.yml) 工作流：从本次运行对应的确切提交构建未签名 Release APK，检查后将安装包、校验值和构建记录保存为 Actions 附件，保留 30 天。签名仍在维护者本机完成；该工作流不访问签名密钥，也不自动发布 Release。需要长期保留的构建材料应另行保存，不能只依赖限期保留的 Actions 附件。
 
 `local.properties`、构建缓存、签名文件和密码只保存在本机，不应提交。自动检查不能代替上传前的隐私审核。
